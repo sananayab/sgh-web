@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SGH google integrations</title>
+  </head>
+  <body>
+    <div id="app">
+      <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDFFoGqC6d8OkAhysT7jyA6pKufAwLPIMw",
+          authDomain: "sgh-web-13baf.firebaseapp.com",
+          projectId: "sgh-web-13baf",
+          storageBucket: "sgh-web-13baf.appspot.com",
+          messagingSenderId: "733386576555",
+          appId: "1:733386576555:web:72c60895ca71a7bfebddee",
+          measurementId: "G-E1JVG8CZXS"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
